@@ -1,0 +1,26 @@
+# ===== Ignore everything =====
+*
+
+# ===== Track files inside folders =====
+!*/
+
+# ===== White list =====
+# - gitignore
+!.gitignore
+
+# - scripts
+!**/*.ps1
+!**/*.psm1
+!**/*.bat
+!**/*.py
+
+# - config
+!**/*.json
+
+# - GUI related
+!**/*.html
+!**/*.css
+!**/*.js
+
+# docs
+!README.md
