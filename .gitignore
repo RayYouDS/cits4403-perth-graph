@@ -1,26 +1,31 @@
-# ===== Ignore everything =====
-*
+# Python cache
+__pycache__/
+*.py[cod]
 
-# ===== Track files inside folders =====
-!*/
+# Virtual environment
+.venv/
+venv/
+env/
 
-# ===== White list =====
-# - gitignore
-!.gitignore
+# Jupyter
+.ipynb_checkpoints/
 
-# - scripts
-!**/*.ps1
-!**/*.psm1
-!**/*.bat
-!**/*.py
+# IDE
+.vscode/
 
-# - config
-!**/*.json
+# OS
+.DS_Store
+Thumbs.db
 
-# - GUI related
-!**/*.html
-!**/*.css
-!**/*.js
+# Python packaging
+*.egg-info/
+dist/
+build/
 
-# docs
-!README.md
+# Large/generated data
+data/raw/
+data/processed/
+
+# Generated outputs
+outputs/
+figures/
