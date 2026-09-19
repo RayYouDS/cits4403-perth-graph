@@ -1,9 +1,14 @@
 # Latest Updates
 
-- [Document for Data Loader Module](./docs/weed_spread_simulation_methodology.py)
+- [Document for Data Loader Module](./docs/gdf_dataloader.md)
+- [Document for Weed Simulation Methodology](./docs/weed_spread_simulation_methodology.md)
 - Perth Population Heatmap
 
 <img src="./docs/figures/perth_population_heatmep.png" width="600">
+
+- Simulated Weed Index Distribution Heatmap
+
+<img src="./docs/figures/weed_index_distribution.png" width="600">
 
 # Data Source
 
